@@ -1,0 +1,38 @@
+.viewname_panel_style {
+    opacity: 1;
+    z-index: 1000;
+    height: 30px;
+    border: 1px solid black;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*.element_border {
+    display: block !important;
+    position: relative;
+}*/
+
+/*.element_border:before{
+    display: block !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid red;
+    z-index: 10;
+    content: '';
+}*/
+
+.element_style {
+    background: peachpuff;
+    border: 1px solid red;
+}

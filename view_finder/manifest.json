@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Marionette View Detector",
+  "description": "This is showing Marionette View Structure on BAND pages.",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "band.png"
+  },
+  "background": {
+    "page": "marionette_view_detector.html"
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://band.us/*", "file:///*/*", "http://local.band.us/*"]
+  }],
+  "permissions": [
+    "activeTab",
+    "file:///*/*",
+    "https://band.us/*",
+    "http://local.band.us/*"
+  ]
+}
