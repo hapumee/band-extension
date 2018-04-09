@@ -1,4 +1,4 @@
-# band-extension
+# VIEW detector
 
 This is a finder which finds view area on BAND web pages.
 BAND web use the 'viewname' custom attribute for indicating specific view.
